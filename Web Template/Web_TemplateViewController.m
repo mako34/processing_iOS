@@ -3,7 +3,7 @@
 //  Web Template
 //
 //  Created by Kyle Newsome on 11-08-22.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 BitWit.ca. All rights reserved.
 //
 
 #import "Web_TemplateViewController.h"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7523A38314082B06009C6AC6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7523A38214082B06009C6AC6 /* NSData+Base64.m */; };
 		75B2CAFC1402D0810065461C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B2CAFB1402D0810065461C /* UIKit.framework */; };
 		75B2CAFE1402D0810065461C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B2CAFD1402D0810065461C /* Foundation.framework */; };
 		75B2CB001402D0810065461C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B2CAFF1402D0810065461C /* CoreGraphics.framework */; };
@@ -16,23 +17,49 @@
 		75B2CB0F1402D0820065461C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB0D1402D0820065461C /* MainWindow.xib */; };
 		75B2CB121402D0820065461C /* Web_TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2CB111402D0820065461C /* Web_TemplateViewController.m */; };
 		75B2CB151402D0820065461C /* Web_TemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB131402D0820065461C /* Web_TemplateViewController.xib */; };
+		75B2CB291402D6830065461C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2CB271402D6830065461C /* WebViewController.m */; };
+		75B2CB2A1402D6830065461C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB281402D6830065461C /* WebViewController.xib */; };
+		75B2CB311402DC600065461C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB301402DC600065461C /* style.css */; };
+		75B2CB411402DC7D0065461C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB401402DC7D0065461C /* index.html */; };
+		75B2CB431402E5CA0065461C /* jquery-1.6.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB341402DC6A0065461C /* jquery-1.6.2.min.js */; };
+		75B2CB461402E5CA0065461C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 75B2CB391402DC6A0065461C /* script.js */; };
+		75B2CB4A1402F1500065461C /* WebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2CB491402F1500065461C /* WebViewDelegate.m */; };
+		75E208E2142C140100036818 /* iphonebattery.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75E208E1142C140100036818 /* iphonebattery.jpeg */; };
+		9FBDBEA816CCC0E800B11CDA /* exampleMinimus.html in Resources */ = {isa = PBXBuildFile; fileRef = 9FBDBEA716CCC0E800B11CDA /* exampleMinimus.html */; };
+		9FBDBEAB16CCC13800B11CDA /* processing-1.4.1.js in Sources */ = {isa = PBXBuildFile; fileRef = 9FBDBEAA16CCC13800B11CDA /* processing-1.4.1.js */; };
+		9FBDBEAD16CCC16400B11CDA /* example.pde in Resources */ = {isa = PBXBuildFile; fileRef = 9FBDBEAC16CCC16400B11CDA /* example.pde */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7523A38114082B06009C6AC6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		7523A38214082B06009C6AC6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		75B2CAF71402D0810065461C /* Web Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B2CAFB1402D0810065461C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75B2CAFD1402D0810065461C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75B2CAFF1402D0810065461C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75B2CB031402D0810065461C /* Web Template-Info.plist */ = {isa = PBXFileReference; path = "Web Template-Info.plist"; sourceTree = "<group>"; };
+		75B2CB031402D0810065461C /* Web Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Web Template-Info.plist"; sourceTree = "<group>"; };
 		75B2CB051402D0810065461C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75B2CB071402D0810065461C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75B2CB091402D0810065461C /* Web Template-Prefix.pch */ = {isa = PBXFileReference; path = "Web Template-Prefix.pch"; sourceTree = "<group>"; };
-		75B2CB0A1402D0810065461C /* Web_TemplateAppDelegate.h */ = {isa = PBXFileReference; path = Web_TemplateAppDelegate.h; sourceTree = "<group>"; };
+		75B2CB091402D0810065461C /* Web Template-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Web Template-Prefix.pch"; sourceTree = "<group>"; };
+		75B2CB0A1402D0810065461C /* Web_TemplateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Web_TemplateAppDelegate.h; sourceTree = "<group>"; };
 		75B2CB0B1402D0810065461C /* Web_TemplateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Web_TemplateAppDelegate.m; sourceTree = "<group>"; };
 		75B2CB0E1402D0820065461C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		75B2CB101402D0820065461C /* Web_TemplateViewController.h */ = {isa = PBXFileReference; path = Web_TemplateViewController.h; sourceTree = "<group>"; };
+		75B2CB101402D0820065461C /* Web_TemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Web_TemplateViewController.h; sourceTree = "<group>"; };
 		75B2CB111402D0820065461C /* Web_TemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Web_TemplateViewController.m; sourceTree = "<group>"; };
 		75B2CB141402D0820065461C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Web_TemplateViewController.xib; sourceTree = "<group>"; };
+		75B2CB261402D6830065461C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "Web Template/WebViewController.h"; sourceTree = "<group>"; };
+		75B2CB271402D6830065461C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "Web Template/WebViewController.m"; sourceTree = "<group>"; };
+		75B2CB281402D6830065461C /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = "Web Template/WebViewController.xib"; sourceTree = "<group>"; };
+		75B2CB301402DC600065461C /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		75B2CB341402DC6A0065461C /* jquery-1.6.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.6.2.min.js"; path = "libs/jquery-1.6.2.min.js"; sourceTree = "<group>"; };
+		75B2CB391402DC6A0065461C /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		75B2CB401402DC7D0065461C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		75B2CB481402F1500065461C /* WebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDelegate.h; sourceTree = "<group>"; };
+		75B2CB491402F1500065461C /* WebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDelegate.m; sourceTree = "<group>"; };
+		75E208E1142C140100036818 /* iphonebattery.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphonebattery.jpeg; sourceTree = "<group>"; };
+		9FBDBEA716CCC0E800B11CDA /* exampleMinimus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = exampleMinimus.html; sourceTree = "<group>"; };
+		9FBDBEAA16CCC13800B11CDA /* processing-1.4.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "processing-1.4.1.js"; sourceTree = "<group>"; };
+		9FBDBEAC16CCC16400B11CDA /* example.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.pde; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +79,9 @@
 		75B2CAEC1402D0810065461C = {
 			isa = PBXGroup;
 			children = (
-				75B2CB011402D0810065461C /* Web Template */,
+				75B2CB471402F10D0065461C /* Web View Files */,
+				75B2CB2B1402DBC90065461C /* Web Based */,
+				75B2CB011402D0810065461C /* Objective-C/iPhone files */,
 				75B2CAFA1402D0810065461C /* Frameworks */,
 				75B2CAF81402D0810065461C /* Products */,
 			);
@@ -76,9 +105,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		75B2CB011402D0810065461C /* Web Template */ = {
+		75B2CB011402D0810065461C /* Objective-C/iPhone files */ = {
 			isa = PBXGroup;
 			children = (
+				7523A38114082B06009C6AC6 /* NSData+Base64.h */,
+				7523A38214082B06009C6AC6 /* NSData+Base64.m */,
 				75B2CB0A1402D0810065461C /* Web_TemplateAppDelegate.h */,
 				75B2CB0B1402D0810065461C /* Web_TemplateAppDelegate.m */,
 				75B2CB0D1402D0820065461C /* MainWindow.xib */,
@@ -87,6 +118,7 @@
 				75B2CB131402D0820065461C /* Web_TemplateViewController.xib */,
 				75B2CB021402D0810065461C /* Supporting Files */,
 			);
+			name = "Objective-C/iPhone files";
 			path = "Web Template";
 			sourceTree = "<group>";
 		};
@@ -99,6 +131,49 @@
 				75B2CB091402D0810065461C /* Web Template-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75B2CB2B1402DBC90065461C /* Web Based */ = {
+			isa = PBXGroup;
+			children = (
+				75E208E1142C140100036818 /* iphonebattery.jpeg */,
+				9FBDBEA716CCC0E800B11CDA /* exampleMinimus.html */,
+				75B2CB401402DC7D0065461C /* index.html */,
+				9FBDBEAC16CCC16400B11CDA /* example.pde */,
+				75B2CB2D1402DBEC0065461C /* js */,
+				75B2CB2C1402DBE20065461C /* css */,
+			);
+			name = "Web Based";
+			sourceTree = "<group>";
+		};
+		75B2CB2C1402DBE20065461C /* css */ = {
+			isa = PBXGroup;
+			children = (
+				75B2CB301402DC600065461C /* style.css */,
+			);
+			name = css;
+			sourceTree = "<group>";
+		};
+		75B2CB2D1402DBEC0065461C /* js */ = {
+			isa = PBXGroup;
+			children = (
+				75B2CB341402DC6A0065461C /* jquery-1.6.2.min.js */,
+				75B2CB391402DC6A0065461C /* script.js */,
+				9FBDBEAA16CCC13800B11CDA /* processing-1.4.1.js */,
+			);
+			name = js;
+			sourceTree = "<group>";
+		};
+		75B2CB471402F10D0065461C /* Web View Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B2CB261402D6830065461C /* WebViewController.h */,
+				75B2CB271402D6830065461C /* WebViewController.m */,
+				75B2CB281402D6830065461C /* WebViewController.xib */,
+				75B2CB481402F1500065461C /* WebViewDelegate.h */,
+				75B2CB491402F1500065461C /* WebViewDelegate.m */,
+			);
+			name = "Web View Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +201,9 @@
 /* Begin PBXProject section */
 		75B2CAEE1402D0810065461C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 75B2CAF11402D0810065461C /* Build configuration list for PBXProject "Web Template" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -148,9 +226,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B2CB431402E5CA0065461C /* jquery-1.6.2.min.js in Resources */,
+				75B2CB461402E5CA0065461C /* script.js in Resources */,
 				75B2CB061402D0810065461C /* InfoPlist.strings in Resources */,
 				75B2CB0F1402D0820065461C /* MainWindow.xib in Resources */,
 				75B2CB151402D0820065461C /* Web_TemplateViewController.xib in Resources */,
+				75B2CB2A1402D6830065461C /* WebViewController.xib in Resources */,
+				75B2CB311402DC600065461C /* style.css in Resources */,
+				75B2CB411402DC7D0065461C /* index.html in Resources */,
+				75E208E2142C140100036818 /* iphonebattery.jpeg in Resources */,
+				9FBDBEA816CCC0E800B11CDA /* exampleMinimus.html in Resources */,
+				9FBDBEAD16CCC16400B11CDA /* example.pde in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +250,10 @@
 				75B2CB081402D0810065461C /* main.m in Sources */,
 				75B2CB0C1402D0810065461C /* Web_TemplateAppDelegate.m in Sources */,
 				75B2CB121402D0820065461C /* Web_TemplateViewController.m in Sources */,
+				75B2CB291402D6830065461C /* WebViewController.m in Sources */,
+				75B2CB4A1402F1500065461C /* WebViewDelegate.m in Sources */,
+				7523A38314082B06009C6AC6 /* NSData+Base64.m in Sources */,
+				9FBDBEAB16CCC13800B11CDA /* processing-1.4.1.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +306,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -233,7 +323,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,6 +371,7 @@
 				75B2CB1A1402D0820065461C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
